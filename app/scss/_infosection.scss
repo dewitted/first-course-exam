@@ -1,0 +1,250 @@
+@import "variables";
+
+.containerinfosection{
+    width: 45%;
+    height: 80%;
+    // background-color: yellow;
+    displaY: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    .containerwow{
+        width: 100%;
+        height: 50%;
+        // background-color: red;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        // align-content: center;
+        // flex-wrap: wrap;
+        h1{
+            width: 100%;
+            // height: 10%;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .dash{
+            width: 15rem;
+            height: 1%;
+            background-color: $orange;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 20%;
+            color: white;
+            text-align: left;
+            line-height: 1.1rem;
+        }
+    }
+}
+
+.icontext{
+    width: 100%;
+    height: 45%;
+    // background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    .cascading{
+        width: 100%;
+        height: 47%;
+        // background-color: red;
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        .iconwow{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: $orange;
+            margin-right: 20px;
+        }
+        .text3{
+            width: 70%;
+            height: 100%;
+            // background-color: blue;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: space-between;
+            
+            h1{
+                margin: 0;
+                padding: 0;
+                color: white;
+                font-size: 1rem;
+            }
+            p{
+                
+                text-align: left;
+                margin: 0;
+                padding: 0;
+                color: white;
+                font-size: 0.8rem;
+                line-height: 1.1rem;
+                overflow: scroll;
+                overflow: hidden;
+            }
+        }
+    }
+    // .cascading{
+    //     width: 100%;
+    //     height: 47%;
+    //     // background-color: red;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     .iconwow{
+    //         height: 70px;
+    //         width: 70px;
+    //         border-radius: 50%;
+    //         background-color: $orange;
+    //     }
+    //     .text3{
+    //         width: 85%;
+    //         height: 100%;
+    //         // background-color: blue;
+    //         display: flex;
+    //         justify-content: space-evenly;
+    //         flex-direction: column;
+    //         align-content: center;
+    //         flex-wrap: wrap;
+    //         h1{
+    //             margin: 0;
+    //             padding: 0;
+    //             color: white;
+    //             font-size: 1rem;
+    //         }
+    //         p{
+    //             text-align: justify;
+    //             margin: 0;
+    //             padding: 0;
+    //             color: white;
+    //             font-size: 1rem;
+    //             line-height: 1.1rem;
+    //         }
+    //     }
+    // }
+}
+
+.logocontainerinfosection{
+    width: 45%;
+    height: 100%;
+    // background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px){
+    .containerinfosection{
+        width: 100%;
+        height: 75%;
+        // background-color: yellow;
+        displaY: flex;
+        justify-content: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+        .containerwow{
+            width: 100%;
+            height: 40%;
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            // align-content: center;
+            // flex-wrap: wrap;
+            h1{
+                width: 100%;
+                height: 10%;
+                color: white;
+                margin: 0;
+                margin-bottom: 30px;
+                padding: 0;
+                font-size: 1rem;
+                
+            }
+            .dash{
+                width: 15rem;
+                height: 1%;
+                background-color: $orange;
+                margin-bottom: 30px;
+                
+            }
+            p{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 45%;
+                color: white;
+                text-align: left;
+                font-size: 0.8rem;
+                line-height: 1.1rem;
+                overflow: scroll;
+            }
+        }
+    }
+    
+    .icontext{
+        width: 100%;
+        height: 45%;
+        // background-color: white;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        flex-wrap: wrap;
+        .cascading{
+            width: 100%;
+            height: 47%;
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconwow{
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background-color: $orange;
+            }
+            .text3{
+                width: 70%;
+                height: 100%;
+                // background-color: blue;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // align-content: space-between;
+                
+                h1{
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    font-size: 1rem;
+                }
+                p{
+                    text-align: left;
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    font-size: 0.8rem;
+                    line-height: 1.1rem;
+                    overflow: scroll;
+                }
+            }
+        }
+    }
+    
+    .logocontainerinfosection{
+        width: 64%;
+        height: 20%;
+        // background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-start;
+    }
+}

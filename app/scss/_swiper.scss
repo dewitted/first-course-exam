@@ -1,0 +1,146 @@
+.awesometop3{
+    width: 100%;
+    height: 30%;
+    // background-color: grey;
+    display: flex;
+    justify-content: center;
+    .containerwow3{
+        width: 100%;
+        height: 100%;
+        // background-color: red;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        // align-content: center;
+        // flex-wrap: wrap;
+        h1{
+            width: 100%;
+            height: 20%;
+            color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+        .dash{
+            width: 15rem;
+            height: 1%;
+            background-color: #6696E2;
+            
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 20%;
+            color: white;
+            text-align: center;
+            line-height: 2rem;
+        }
+    }
+}
+
+.swiper-container {
+    width: 100%;
+    height: 55%;
+    .swiper-slide{
+        display: flex;
+        justify-content: space-around;
+        align-items: top;
+        align-content: flex-end;
+        .sayingcontainer{
+            width: 25%;
+            height: 80%;
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .speechbubblecontainer{
+                width: 100%;
+                height: 60%;
+                // background-color: blue;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                .speechbubble{
+                    width: 90%;
+                    height: max-content;
+                    min-height: 20%;
+                    background-color: #6696E2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 15%;
+                        width: 0;
+                        height: 0;
+                        border: 0.5em solid transparent;
+                        border-top-color: #6696E2;
+                        border-bottom: 0;
+                        margin-left: -0.5em;
+                        margin-bottom: -0.5em;
+                    }
+                    p{
+                        color: white;
+                        width: 80%;
+                    }
+                }
+
+            }
+            .picturecontainer{
+                width: 100%;
+                height: 35%;
+                // background-color: yellow;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .centering{
+                    width: 90%;
+                    height: 100%;
+                    // background-color: blue;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .pic{
+                        width: 90px;
+                        height: 90px;
+                        // background-color: teal;
+                        border-radius: 50%;
+                    }
+                    .identification{
+                        width: 70%;
+                        height: 100%;
+                        // background-color: orange;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        h1{
+                            margin: 0;
+                            margin-bottom: 3%;
+                            color: black;
+                            font-weight: normal;
+                            font-size: 1rem;
+                        }
+                        p{
+                            margin: 0;
+                            color: #86878B;
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

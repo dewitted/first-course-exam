@@ -1,0 +1,109 @@
+#logo{
+    background-image: url("assets/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-Y: center;
+}
+
+#iconone{
+    background-image: url("assets/facebook-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#icontwo{
+    background-image: url("assets/instagram-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#iconthree{
+    background-image: url("assets/pinterest-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#iconfour{
+    background-image: url("assets/twitter-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#iconfive{
+    background-image: url("assets/wifi-signal-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.65;
+    
+}
+
+#picture1{
+    background-image: url("assets/picture1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#picture2{
+    background-image: url("assets/picture2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#cabbagee{
+    background-image: url("assets/cabbage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vegann{
+    background-image: url("assets/vegan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#kicks{
+    background-image: url("assets/sick-kicks.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eye{
+    background-image: url("assets/eye.svg");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+}
+
+#spBub{
+    background-image: url("assets/speech-bubble.svg");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+}
+
+#ribbon{
+    background-image: url("assets/ribbon-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
+#leaf{
+    background-image: url("assets/leaf-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
+#visa{
+    background-image: url("assets/visa-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
+
+@import "variables";
+
+#orange{
+    background-color: $orange;
+}
+
+#john{
+    background-image: url("assets/john_picture.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

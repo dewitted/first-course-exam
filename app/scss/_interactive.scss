@@ -1,0 +1,314 @@
+body {
+    -ms-overflow-style: none;  // IE 10+
+    scrollbar-width: none;  // Firefox
+}
+body::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
+}
+
+.heightcontainer{
+    width: 100%;
+    height: 70%;
+    // background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.boxesleft{
+    height: 100%;
+    width: 10%;
+    // background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smallboxleft{
+    height: 30%;
+    width: 100%;
+    background-color: #E27866;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.33);
+    h1{
+        margin: 0;
+        padding: 0;
+        color: white;
+        transform: rotate(-45deg);
+        font-size: 1.25rem;
+        font-weight: normal;
+    }
+    
+}
+
+.smallboxleft:hover{
+    cursor: url("assets/cursor-hand.png"), auto;
+}
+
+.smallboxleft::after{
+    content: '';
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.smallboxleft:hover::after{
+    content: '';
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.boxescontainer{
+    height: 100%;
+    width: 30%;
+    // background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.boxes2{
+    width: 100%;
+    height: 47%;
+    // background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smallbox{
+    width: 47%;
+    height: 100%;
+    position: relative;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.33);
+    // background-color: lightcoral;
+}
+
+.smallbox:hover{
+    cursor: url("assets/cursor-hand.png"), auto;
+}
+
+.smallbox:hover::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #E27866;
+    opacity: 0.5;
+}
+
+.smallbox:hover::before{
+    content:'Explore';
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%)
+               translateX(-50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.bigbox{
+    width: 100%;
+    height: 47%;
+    position: relative;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.33);
+    // background-color: yellow;
+}
+
+.bigbox:hover{
+    cursor: url("assets/cursor-hand.png"), auto;
+}
+
+.bigbox:hover::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #E27866;
+    opacity: 0.5;
+}
+
+.bigbox:hover::before{
+    content:'Explore';
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%)
+               translateX(-50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .heightcontainer{
+        width: 100%;
+        height: 90%;
+        // background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 2;
+    }
+    
+    .boxesleft{
+        height: 20%;
+        width: 100%;
+        // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .smallboxleft{
+        height: 100%;
+        width: 30%;
+        background-color: #E27866;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.33);
+        h1{
+            margin: 0;
+            padding: 0;
+            color: white;
+            transform: rotate(-45deg);
+            font-size: 1rem;
+            font-weight: normal;
+        }
+        
+    }
+    
+    .smallboxleft:hover{
+        cursor: url("assets/cursor-hand.png"), auto;
+    }
+    
+    .smallboxleft::after{
+        content: '';
+        opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    .smallboxleft:hover::after{
+        content: '';
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    .boxescontainer{
+        height: 30%;
+        width: 70%;
+        // background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .boxes2{
+        width: 100%;
+        height: 47%;
+        // background-color: grey;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .smallbox{
+        width: 47%;
+        height: 100%;
+        position: relative;
+        box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.33);
+        // background-color: lightcoral;
+    }
+    
+    .smallbox:hover{
+        cursor: url("assets/cursor-hand.png"), auto;
+    }
+    
+    .smallbox:hover::after{
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #E27866;
+        opacity: 0.5;
+    }
+    
+    .smallbox:hover::before{
+        content:'Explore';
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%)
+                   translateX(-50%);
+        color: white;
+        font-size: 0.95rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+    }
+    
+    .bigbox{
+        width: 100%;
+        height: 47%;
+        position: relative;
+        box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.33);
+        // background-color: yellow;
+    }
+    
+    .bigbox:hover{
+        cursor: url("assets/cursor-hand.png"), auto;
+    }
+    
+    .bigbox:hover::after{
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #E27866;
+        opacity: 0.5;
+    }
+    
+    .bigbox:hover::before{
+        content:'Explore';
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%)
+                   translateX(-50%);
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+    }
+}
